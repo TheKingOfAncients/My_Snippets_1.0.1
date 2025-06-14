@@ -37,7 +37,7 @@ ________________________________________________________________________________
 ## File Permissions
 
 chmod: Allows one to change the premissions of a file (who can do what to it)
-#### =x [Insert script name here] Allows a newly created file to be excutable. 
+#### +x [Insert script name here] Allows a newly created file to be excutable. 
 
 ./[Insert name of script]
 #### Allows one to run/excuete a script
