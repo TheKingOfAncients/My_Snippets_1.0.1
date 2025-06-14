@@ -1,12 +1,12 @@
+______________________________________________________________________________________________
 ## Basic File Management
 
 ls: [Insert description here]
 
 cd: [Insert description here]
-#### .. : Goes back one level; can be combinded with /
-#### ~: Goes back to the home directory.
-
-
+* **..** : Goes back one level; can be combinded with /
+* **~** : Goes back to the home directory.
+______________________________________________________________________________________________
 ## File Operations
 
 cp: [Insert description here]
@@ -33,8 +33,7 @@ nano: Opens the text editor "nano"
 grep: Allows one to preform text searches in a file.
 
 grep "[Insert text to be searched for]" [Insert file to be search]
-
-
+______________________________________________________________________________________________
 ## File Permissions
 
 chmod: Allows one to change the premissions of a file (who can do what to it)
@@ -42,14 +41,14 @@ chmod: Allows one to change the premissions of a file (who can do what to it)
 
 ./[Insert name of script]
 #### Allows one to run/excuete a script
-
-
+______________________________________________________________________________________________
 ## Text Manipulation
 
 echo: Allows one to display text.
 
 echo "[Insert text between these two double quotes for them to be displayed.]"
 
+______________________________________________________________________________________________
 ## Compression
 
 tar: a Shell Command for combining multiple computer files into a single archive file. 
@@ -68,8 +67,7 @@ of files and/or folders to be combined]
 #### tar -czf [filename]_$(date +%Y%m%d_%H%M%S).tar.gz [Insert location(s) 
 of files and/or folders to be combined]
 ###### Allows one to create a tar file w/ a timestamp.
-
-
+______________________________________________________________________________________________
 ## Encryption
 
 gpg: (aka GNU Privacy Guard; GnuPG), a software program that is used for 
@@ -105,10 +103,7 @@ openssl enc -aes-256-cbc -d -in [Insert filename here to be deencrypted.].enc - 
 ## Encryption:Checksums
 
 sha256sum [Insert file to be assigned a unique code that depends completely on its digital makeup]
-
-
-
-
+______________________________________________________________________________________________
 ## Synchronation
 
 rclone: [Insert description here]
