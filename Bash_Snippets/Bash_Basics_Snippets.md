@@ -19,6 +19,9 @@ rm: [Insert description here]
 
 rm [Insert folder to be deleted]
 
+mkdir: Creates a new directory
+mkdir [Insert existing path if not already located within your desired directory]/[Insert name of new directory]
+
 cat: Views a file's contents
 
 cat [Insert file to be viewed]
