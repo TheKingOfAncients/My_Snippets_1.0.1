@@ -1,0 +1,47 @@
+
+Compression
+
+tar: a Shell Command for combining multiple computer files into a single archive file. 
+
+
+### Snippets
+tar -cvf [Insert desired name of archive here] [Insert location(s) 
+of files and/or folders to be combined]
+
+# -cvf
+#### Creates the archive, lists processes out in details, and allows it to be named / specify, respectively
+
+# -xvf
+#### Extracts the contents of the archives, then listed, and specify the file.
+
+
+Encryption
+
+gpg: (aka GNU Privacy Guard; GnuPG), a software program that is used for 
+many types of encryption including symmeetric-keyu cryptography and public-key cryptography.
+
+### Snippets
+
+gpg -c [Insert filename here to be encrypted.)
+#### Note: The writer will be prompted for a password/passphrase.
+
+gpg -o [Insert desired future name of the soon to be decrypted file] -d [Insert encrypted filename here]
+
+
+openssl: a command line tool used for various cryptographic operations, including:
+#### Generating keys
+#### Creating certificates
+#### Managing SSL/TLS
+
+
+#### Snippets
+
+pkg install openssl-tool 
+#### Note: For installing openssl
+
+openssl enc -aes-256-cbc -salt -in [Insert filename here to be encrypted.] -out [Insert desired future name of the soon to be decrypted file].enc
+#### To Encrypt a file.
+#### Note: -aes256-cbc is the encryption algorithm; -salt adds randomness to one's password. 
+
+
+openssl enc -aes-256-cbc -d -in [Insert filename here to be deencrypted.].enc - out [Insert desired future name of the soon to be decrypted file]
